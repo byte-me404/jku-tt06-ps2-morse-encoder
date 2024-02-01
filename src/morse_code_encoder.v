@@ -995,3 +995,4 @@ module morse_code_encoder (
     assign morse_code_out = dit_out | dah_out;
     
 endmodule
+
