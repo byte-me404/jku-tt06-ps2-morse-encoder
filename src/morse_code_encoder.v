@@ -59,7 +59,7 @@ module morse_code_encoder (
     localparam SPACE      = 8'h29;
     localparam F1_KEY     = 8'h05;
     localparam F4_KEY     = 8'h0C;
-    //localparam F6_KEY     = 8'h0B;
+    localparam F6_KEY     = 8'h0B;
     
     // Internal registers
     reg [(BUFFER_LENGTH*8)-1:0]   data_shift_reg;
@@ -181,11 +181,11 @@ module morse_code_encoder (
                         
                         next_encoding_state = ENCODING_STATE_0_IDLE;
 
-                        /* Easter Egg
+                        // Easter Egg
                         if (ps2_received_data == F6_KEY) begin
                             next_data_shift_reg = 96'h2C4331352C1C4D24443C2C;
                             next_encoding_state = ENCODING_STATE_4_DATA_OUT;
-                        end*/
+                        end
                     end
                 end
             ENCODING_STATE_4_DATA_OUT:
