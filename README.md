@@ -21,7 +21,7 @@ The last output is intended for connecting a buzzer or a small speaker. This out
 
 ## Silicon
 The chip is produced as part of the Tiny Tapeout project it will take part in TT06.
-The design requires a 1x1 tile and achieves a utilization of approx. 81%, for which approx. 1380 logic cells are required.
+The design requires a 1x1 tile and achieves a utilization of approx. 81%, for which approx. 1500 logic cells (excluding fill and tap cells) are required.
 ![GDS render](docs/gds_render.png)
 
 
