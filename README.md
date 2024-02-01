@@ -22,7 +22,7 @@ The last output is intended for connecting a buzzer or a small speaker. This out
 ## Silicon
 The chip is produced as part of the Tiny Tapeout project it will take part in TT06.
 The design requires a 1x1 tile and achieves a utilization of approx. 81%, for which approx. 1500 logic cells (excluding fill and tap cells) are required.
-![GDS render](docs/gds_render.png)
+![GDS render](pictures/gds_render.png)
 
 
 ## Code
@@ -32,7 +32,7 @@ One module for decoding the PS/2 data from the keyboard that evaluates the data 
 Another module generates the Morse code output based on the keyboard input, and one additional module generates the 600Hz square wave signal.
 Across the modules, multiple finite state machines (FSM) are used.
 The exact implementation and a test bench can be found in the [src](https://github.com/byte-me404/jku-tt06-ps2-morse-encoder/tree/main/src) folder.
-![Verilog project block diagram](docs/verilog_block.png)
+![Verilog project block diagram](pictures/verilog_block.png)
 
 
 ## How to Test the Design
