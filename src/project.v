@@ -47,8 +47,8 @@ module tt_um_ps2_morse_encoder_top (
     assign uo_out[2] = 1'b0;
     assign uo_out[4] = 1'b0;
     assign uo_out[5] = 1'b0;
-    assign uio_out   = 0;
-    assign uio_oe    = 0;
+    assign uio_out   = 8'b00000000;
+    assign uio_oe    = 8'b00000000;
 
     ps2_controller ps2_controller (
         // Inputs
