@@ -37,7 +37,7 @@ module tone_generator (
 );
 
     // Constant parameters
-    localparam SIZE_COUNTER = 10;       // 11-Bit counter
+    localparam SIZE_COUNTER = 10;       // 10-Bit counter
     localparam MAX_COUNT    = 10'h341;  // 600 Hz with 1MHz clock, for testing: 10'h8
 
     // Internal registers

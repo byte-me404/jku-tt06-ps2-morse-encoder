@@ -50,7 +50,6 @@ module tt_um_ps2_morse_encoder_top (
     assign uio_out   = 0;
     assign uio_oe    = 0;
 
-    // DUT
     ps2_controller ps2_controller (
         // Inputs
         .clk(clk),
