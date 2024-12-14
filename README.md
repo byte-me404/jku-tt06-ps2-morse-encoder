@@ -44,6 +44,7 @@ Additionally, two pull-up resistors (5kΩ) against 5V must be connected to the 
 Don't forget to supply the keyboard with 5V and GND. 
 If you don't have a PS/2 keyboard, you can also use a USB keyboard. Some, but not all, USB keyboards still support the PS/2 protocol.
 In this case, D+ is clock and D- is data (don't forget the pull-up resistors and the level shifter).
+I soldered an adapter onto a breadboard for myself, see the following picture. For the voltage conversion I used the first best bidirectional converter from Amazon.
 
 After everything is connected, perform a reset and start typing on the keyboard.
 The input should be stored in a buffer (max. 14 characters). With F1 and F4, you can switch between two modes.
@@ -56,6 +57,7 @@ Before submission to TT06 the design was tested on a Spartan 3AN Starter Kit, so
 
 PS: You may be surprised when you press the F6 key 🐣🐰
 
+![PS/2 to TT Adapter](pictures/adapter.png)
 
 ## What is Tiny Tapeout?
 [Tiny Tapeout](https://tinytapeout.com) is an educational and open source project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
